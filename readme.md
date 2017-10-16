@@ -12,9 +12,10 @@ build and run with :
  and point your browser to :
 ```````````````````
   127.0.0.1:8080
+``````````````````
 
+if you got file permision issue like ```+0000 "GET /index.php" 500
 
-## if you got file permision issue like +0000 ```"GET /index.php" 500
 try fix it with: 
 `````````````````
   chmod 777 -R storage/ && chmod  777 -R bootstrap/*
