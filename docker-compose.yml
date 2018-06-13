@@ -3,6 +3,7 @@ services:
 
   # The Application
   app:
+    image: php:7.1-fpm
     build:
       context: ./
       dockerfile: app.dockerfile
